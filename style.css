@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+
+}
 a{
     text-decoration: none;
 }
@@ -10,7 +13,6 @@ ul{
 }
 /*导航栏*/
 header{
-
     background-color: #333;
     width: 100%;
     min-width: 1263px;
@@ -18,7 +20,7 @@ header{
 }
 nav{
     margin: 0 auto;
-    width: 1263px;
+    width: 1000px;
 }
 .logo{
     float: left;
@@ -27,7 +29,6 @@ nav > ul{
     position: relative;
     text-align: center;
     line-height: 70px;
-    width: 8000px;
     left: 200px;
 }
 nav > ul > li{
@@ -123,4 +124,50 @@ figure{
     font-size: 16px;
     position: relative;
     left: 100px;
+}
+/*页脚设置*/
+hr{
+    border: 1px dashed #333;
+    width: 90%;
+}
+footer{
+    background-color: #222;
+    overflow: hidden;
+}
+.top{
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+}
+h2{
+    color: #ccc;
+    font-weight: normal;
+}
+/*左边*/
+.left-cloumn{
+    float: left;
+    margin: 10px;
+}
+.left-cloumn > ul > li > a{
+    margin: 5px;
+    display: block;
+    color: gray;
+}
+/*中间*/
+.middle-cloumn{
+    float: left;
+    margin: 10px;
+}
+.middle-cloumn > ul > li > a{
+    margin: 5px;
+    color: gray;
+}
+/*右边*/
+.right-column{
+    float: left;
+    margin: 10px;
+}
+.right-column > ul > li > a{
+    margin: 5px;
+    color: gray;
 }
