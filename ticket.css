@@ -45,26 +45,29 @@ nav > ul > li >a:hover{
     cursor: pointer;
 }
 /*banner设置*/
-.banner{
+#banner{
     position: relative;
     background: linear-gradient(to right bottom, rgba(0,0,0,0.7), rgba(0,0,0,0)), url("img/headline.jpg") no-repeat center;
     width: 100%;
     height: 300px;
+    min-width: 1263px;
+}
+.banner{
+    width: 1263px;
+    height: 300px;
     margin: 0 auto;
 }
+hgroup{
+    padding: 100px 0 0 150px;
+}
 hgroup > h1 {
-    font-size: 62px;
+    font-size: 45px;
     font-weight: bold;
-    position: relative;
-    top: 90px;
-    right: 280px;
-    color: #ccc;
-    
+    color: #eee;
+    letter-spacing: 1px;
 }
 hgroup > p {
+    letter-spacing: 1px;
     font-size: 20px;
-    position: relative;
-    color: #ccc;
-    left: 890px;
-    top: 90px;
+    color: #eee;
 }
