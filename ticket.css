@@ -71,3 +71,87 @@ hgroup > p {
     font-size: 20px;
     color: #eee;
 }
+/*container的内容*/
+.container{
+    width: 1263px;
+    margin: 30px auto;
+    overflow: hidden;
+}
+article{
+    color: #666;
+}
+/*表单设置*/
+.form > h2{
+    line-height: 50px;
+    padding: 5px 0 10px 0;
+    font-size: 40px;
+    border-bottom: 1px dashed #999;
+    font-weight: normal;
+}
+.form > .type{
+    margin: 20px 0 20px 0px;
+}
+.type > span{
+    font-size: 25px;
+    display: block;
+}
+.type > span > strong {
+    background-color: #458b00;
+    display: inline-block;
+    color: #fff;
+}
+/*左侧输入框*/
+.form-left{
+    display: inline-block;
+}
+.form-left > label{
+    display: block;
+    margin: 0 10px 20px 0;
+}
+.form-left > label > input{
+    width: 250px;
+    height: 30px;
+    font-size: 18px;
+    margin: 0 0 0 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+/*右侧输入框*/
+.form-center{
+    display: inline-block;
+}
+.form-center > label{
+    display: block;
+    margin: 0 10px 20px 0;
+}
+.form-center > label > input{
+    width: 250px;
+    height: 30px;
+    font-size: 18px;
+    margin: 0 0 0 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+.form-center > button{
+    position: relative;
+    width: 120px;
+    height: 80px;
+    left: 300px;
+}
+.form-right{
+    display: inline-block;
+}
+.form-right > button {
+    font-size: 18px;
+    position: relative;
+    left: 50px;
+    top: -25px;
+    width: 90px;
+    height: 90px;
+    background-color: #f60;
+    color: #fff;
+    letter-spacing: 2px;
+    border-radius: 5px;
+}
