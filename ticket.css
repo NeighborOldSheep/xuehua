@@ -89,7 +89,7 @@ article{
     font-weight: normal;
 }
 .form > .type{
-    margin: 20px 0 20px 0px;
+    padding: 20px 0 20px 0px;
 }
 .type > span{
     font-size: 25px;
@@ -155,4 +155,59 @@ article{
     letter-spacing: 2px;
     border-radius: 5px;
     border: 1px solid #f60;
+}
+/*最新机票*/
+.list-new > h2{
+    border-bottom: 1px dashed #999;
+    font-size: 50px;
+    font-weight: normal;
+    padding: 5px 0px 10px 0px;
+}
+.list-new > ul > li{
+    float: left;
+    margin: 10px;
+    font-size: 23px;
+}
+.list-new > ul > li:nth-child(2){
+    background-color: #458b00;
+    display: inline-block;
+    color: #fff;
+}
+
+/*最新机票table设置*/
+.list-new > table{
+    clear: both;
+    border: 1px solid #ccc;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+/*thead设置*/
+tr > th{
+    height: 50px;
+    border: 1px solid #ccc;
+}
+/*设置所有td元素*/
+tbody > tr > td{
+    border: 1px solid #ccc;
+    height: 50px;
+}
+
+/*设置所有价钱颜色*/
+table > tbody > tr > td:nth-child(3) {
+    color: #f60;
+}
+/*设置所有预定颜色*/
+.list-new > table > tbody > tr > td > a{
+    display: inline-block;
+    background: #f60;
+    line-height: 30px;
+    color: #fff;
+    border-radius: 4px;
+    width: 80px;
+}
+/*tfoot设置*/
+tfoot > tr > td{
+    border: 1px solid #ccc;
+    height: 50px;
 }
