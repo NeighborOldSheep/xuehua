@@ -79,6 +79,7 @@ hgroup > p {
 }
 article{
     color: #666;
+    float: left;
 }
 /*表单设置*/
 .form > h2{
@@ -191,11 +192,13 @@ tr > th{
 tbody > tr > td{
     border: 1px solid #ccc;
     height: 50px;
+    font-weight: bold;
 }
 
 /*设置所有价钱颜色*/
 table > tbody > tr > td:nth-child(3) {
     color: #f60;
+    font-weight: bold;
 }
 /*设置所有预定颜色*/
 .list-new > table > tbody > tr > td > a{
@@ -205,9 +208,41 @@ table > tbody > tr > td:nth-child(3) {
     color: #fff;
     border-radius: 4px;
     width: 80px;
+    cursor: pointer;
 }
 /*tfoot设置*/
 tfoot > tr > td{
     border: 1px solid #ccc;
     height: 50px;
+    cursor: pointer;
+}
+/*右侧推荐栏设置*/
+.sidebar{
+    float: right;
+    border: 1px solid #ccc;
+    width: 340px;
+}
+/*景点推荐设置*/
+.recommend > h2 {
+    background-color: #fafafa;
+    font-size: 28px;
+    text-align: center;
+}
+.recommend > ul {
+    text-align: center;
+}
+/*列表标签li设置*/
+.recommend > ul > li {
+    background-color: #eee;
+    margin: 5px 2px 7px 2px;
+    line-height: 35px;
+    display: inline-block;
+    height: 40px;
+    width: 100px;
+}
+/*列表a标签设置*/
+.recommend > ul > li > a{
+    font-size: 16px;
+    color: #999;
+    cursor: pointer;
 }
