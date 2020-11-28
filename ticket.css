@@ -219,10 +219,13 @@ tfoot > tr > td{
 /*右侧推荐栏设置*/
 .sidebar{
     float: right;
-    border: 1px solid #ccc;
     width: 340px;
 }
 /*景点推荐设置*/
+.recommend{
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
 .recommend > h2 {
     background-color: #fafafa;
     font-size: 28px;
@@ -245,4 +248,64 @@ tfoot > tr > td{
     font-size: 16px;
     color: #999;
     cursor: pointer;
+}
+/*热门旅游*/
+.famous{
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+/*景点标题设置*/
+.famous > h2 {
+    font-size: 28px;
+    text-align: center;
+    background: #fafafa
+}
+.famous > figure {
+    display: inline-block;
+    padding: 5px;
+}
+.famous,img {
+    text-align: center;
+}
+.famous > figure > figcaption{
+    font-size: 16px;  
+}
+/*旅游百宝箱*/
+.treasure{
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+.treasure > h2{
+    background: #fafafa;
+    text-align: center;
+    font-size: 28px;
+}
+/*对每一个a标签进行添加图标*/
+.trea1{
+    background: #eee url(img/trea1.png) no-repeat 10px center;
+}
+.trea2{
+    background: #eee url(img/trea2.png) no-repeat 10px center;
+}
+.trea3{
+    background: #eee url(img/trea3.png) no-repeat 10px center;
+}
+.trea4{
+    background: #eee url(img/trea4.png) no-repeat 10px center;
+}
+/*对每一个a标签进行设置*/
+.box{
+    margin: 10px 10px;
+}
+.box > a {
+    display: inline-block;
+    background-color: #ccc;
+    text-align: center;
+    color: #999;
+    margin: 2px;
+    text-indent: 10px;
+    line-height: 45px;
+    width: 150px;
+    height: 45px;
+    font-size: 16px;
 }
