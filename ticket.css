@@ -309,3 +309,49 @@ tfoot > tr > td{
     height: 45px;
     font-size: 16px;
 }
+/*页脚设置*/
+hr{
+    border: 1px dashed #333;
+    width: 90%;
+}
+footer{
+    background-color: #222;
+    overflow: hidden;
+}
+.top{
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+}
+h2{
+    color: #ccc;
+    font-weight: normal;
+}
+/*左边*/
+.left-cloumn{
+    float: left;
+    margin: 10px;
+}
+.left-cloumn > ul > li > a{
+    margin: 5px;
+    display: block;
+    color: gray;
+}
+/*中间*/
+.middle-cloumn{
+    float: left;
+    margin: 10px;
+}
+.middle-cloumn > ul > li > a{
+    margin: 5px;
+    color: gray;
+}
+/*右边*/
+.right-column{
+    float: left;
+    margin: 10px;
+}
+.right-column > ul > li > a{
+    margin: 5px;
+    color: gray;
+}
