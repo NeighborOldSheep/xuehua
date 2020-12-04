@@ -72,3 +72,31 @@ hgroup > p {
     letter-spacing: 1px;
     font-size: 20px;
 }
+/*主内容*/
+.container{
+    margin: 30px auto;
+    width: 1263px;
+    overflow: hidden;
+}
+article{
+    float: left;
+    width: 900px;
+}
+/*标题设置*/
+.scenery > h2{
+    border-bottom: 1px dashed #999;
+    font-size: 45px;
+    padding: 0 0 10px 0;
+    margin-bottom: 10px;
+    line-height: 50px;
+}
+/*景点图像*/
+.scenery > figure{
+    text-align: center;
+    width: 433px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    margin: 10px 3px 15px 0;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
