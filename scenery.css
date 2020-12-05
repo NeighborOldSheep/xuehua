@@ -76,6 +76,7 @@ hgroup > p {
 .container{
     margin: 30px auto;
     width: 1263px;
+    margin: 30px auto;
     overflow: hidden;
 }
 article{
@@ -92,6 +93,7 @@ article{
 }
 /*景点图像*/
 .scenery > figure{
+    padding: 4px;
     text-align: center;
     width: 433px;
     border: 1px solid #ccc;
@@ -99,4 +101,38 @@ article{
     margin: 10px 3px 15px 0;
     border-radius: 5px;
     letter-spacing: 1px;
+}
+.scenery > figure > img{
+    vertical-align: middle;
+}
+.scenery > figure > figcaption{
+    line-height: 1.5;
+    padding: 10px 0 10px 0;
+    font-size: 16px;
+}
+/*右侧推荐栏*/
+.sidebar{
+    float: right;
+    width: 340px;
+}
+.famous{
+    border: 1px solid #ccc;
+}
+.famous > h2 {
+    text-align: center;
+}
+.famous > ul > li{
+    background-color: #eee;
+    height: 40px;
+    width: 100px;
+    display: inline-block;
+    margin: 5px 2px 7px 2px;
+    line-height: 35px;
+}
+.famous > ul > li > a {
+    font-size: 16px;
+    color: #999;
+    display: block;
+    text-align: center;
+    cursor: pointer;
 }
