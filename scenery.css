@@ -90,6 +90,7 @@ article{
     padding: 0 0 10px 0;
     margin-bottom: 10px;
     line-height: 50px;
+    color: #666;
 }
 /*景点图像*/
 .scenery > figure{
@@ -115,13 +116,14 @@ article{
     float: right;
     width: 340px;
 }
-.famous{
+.recommend{
     border: 1px solid #ccc;
+    margin-bottom: 20px;
 }
-.famous > h2 {
+.recommend > h2 {
     text-align: center;
 }
-.famous > ul > li{
+.recommend > ul > li{
     background-color: #eee;
     height: 40px;
     width: 100px;
@@ -129,10 +131,101 @@ article{
     margin: 5px 2px 7px 2px;
     line-height: 35px;
 }
-.famous > ul > li > a {
+.recommend > ul > li > a {
     font-size: 16px;
     color: #999;
     display: block;
     text-align: center;
     cursor: pointer;
+}
+/*热门旅游*/
+.famous {
+    border: 1px solid #ccc;
+    border-bottom: 20px;
+    text-align: center;
+}
+.famous > figure{
+    display: inline-block;
+    padding: 5px;
+}
+.famous > figure > figcaption {
+    font-size: 16px;
+}
+/*旅游百宝箱*/
+.treasure{
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    text-align: center;
+}
+/*对每一个a标签进行添加图标*/
+.trea1{
+    background: #eee url(img/trea1.png) no-repeat 10px center;
+}
+.trea2{
+    background: #eee url(img/trea2.png) no-repeat 10px center;
+}
+.trea3{
+    background: #eee url(img/trea3.png) no-repeat 10px center;
+}
+.trea4{
+    background: #eee url(img/trea4.png) no-repeat 10px center;
+}
+.box{
+    margin: 10px 10px;
+}
+.box > a{
+    color: #999;
+    background-color: #ccc;
+    font-size: 16px;
+    line-height: 45px;
+    height: 45px;
+    width: 150px;
+    margin: 2px;
+    text-indent: 10px;
+    display: inline-block;
+}
+/*页脚设置*//*左边*/
+hr{
+    border: 1px dashed #333;
+    width: 90%;
+}
+footer{
+    background-color: #222;
+    overflow: hidden;
+}
+.top{
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+}
+h2{
+    color: #ccc;
+    font-weight: normal;
+}
+.left-cloumn{
+    float: left;
+    margin: 10px;
+}
+.left-cloumn > ul > li > a{
+    margin: 5px;
+    display: block;
+    color: gray;
+}
+/*中间*/
+.middle-cloumn{
+    float: left;
+    margin: 10px;
+}
+.middle-cloumn > ul > li > a{
+    margin: 5px;
+    color: gray;
+}
+/*右边*/
+.right-column{
+    float: left;
+    margin: 10px;
+}
+.right-column > ul > li > a{
+    margin: 5px;
+    color: gray;
 }
