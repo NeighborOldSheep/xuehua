@@ -2,11 +2,11 @@
     padding: 0;
     margin: 0;
 }
-a{
-    text-decoration: none;
-}
 ul{
     list-style-type: none;
+}
+a{
+    text-decoration: none;
 }
 /*导航栏*/
 header{
@@ -74,147 +74,29 @@ hgroup > p{
 }
 /*主内容*/
 .container{
-    min-width: 1263px;
     width: 1263px;
     margin: 20px auto; 
     overflow: hidden;   
 }
-/*旅游资讯*/
-article{
+.main{
     float: left;
-    margin-right: 20px;
-}
-.nav{
-    background:#eee;
-    overflow: hidden;
-    width: 900px;
-    height: 50px;
-}
-/*左侧*/
-.nav > .left{
-    float: left;
-    text-align: center;
-    line-height: 45px;
-}
-.nav > .left > li:first-child{
-    position: relative;
-    border: 1px solid #fff;
-    border-top: 2px solid #458b00;
-    left: 1px;
-}
-.nav > .left > li{
-    display: inline-block;
-    width: 150px;
-    height: 48px;
-}
-.nav > .left > li > a{
-    display: block;
-    color: #666;
-    font-size: 25px;
-}
-/*右侧*/
-.nav > .right{
-    float: right;
-    line-height: 45px;
-    margin-right: -10px;
-    text-align: center;
-    width: 300px;
-    height: 50px;
-}
-.nav > .right > li{
-    display: inline-block;
-    width: 60px;
-}
-.nav > .right > li > #right{
-    background: #458b00;
-    color: #fff;
-}
-.nav > .right > li > a {
-    display: block;
-    color: #666;
-    font-size: 14px;
-    padding: 5px;
-}
-/*旅游推荐*/
-.info > figure{
-    border: 1px solid #ccc;
-    width: 898px;
-    height: 231px;
-    position: relative;
     margin-top: 20px;
 }
-/*图片*/
-figure > img{
-    float: left;
+.aboutus{
+    width: 900px;
+    margin-bottom: 30px;
 }
-.descripation{
-    float: right;
-    width: 498px;
-    height: 200px;
-    padding: 10px 0 0 20px;
+.aboutus > h1{
+    margin-bottom: 10px;
+    font-size: 35px;
+    border-bottom: 1px dashed #ccc;
+    padding-bottom: 10px;
 }
-/*标题文字处理*/
-.info > figure > .descripation > h2{
-    font-weight: normal;
-    font-size: 25px;
-}
-.descripation > p{
-    font-size: 16px;
-    margin-top: 10px;
-    width: 300px;
-}
-ol{
-    list-style-type: none;
-    margin-top: 10px;
-}
-ol > li > mark{
-    border: 1px solid #458b00;
-    color: #458b00;
-    background-color: #fff;
-    border-radius: 5px;
-    padding: 0 5px;
-}
-ol > li{
-    font-size: 16px;
-    margin-top: 8px;
-}
-/*抢购按钮*/
-.buy{
-    position: absolute;
-    bottom: 150px;
-    right: 10px;
-}
-.buy > .price > strong {
-    color: #f60;
-    font-size: 40px;
-}
-.buy > .price > s {
-    font-size: 19px;
-    color: #999;
-}
-.button > button{
-    margin-top: 10px;
-    background-color: #f80;
-    color: #fff;
-    font-size: 20px;
-    border: 1px solid #f80;
-    border-radius: 5px;
-    position: absolute;
-    width: 150px;
-    height: 50px;
-    top: 70px;
-} 
-/*记载按钮*/
-.load{
-    text-align: center
-}
-.load > button{
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    background-color: #fafafa;
-    width: 250px;
-    height: 60px;
-    font-size: 20px;
+.contactus > h1{
+    margin-bottom: 10px;
+    font-size: 35px;
+    border-bottom: 1px dashed #ccc;
+    padding-bottom: 10px;
 }
 /*右侧推荐栏*/
 .sidebar{
